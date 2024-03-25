@@ -21,7 +21,7 @@ const Contact = () => {
                       <input type="email" className='h-full p-4 rounded-lg' value="" placeholder="Email" name="email" id="email" />
                    </p>
                    <p className="h-[200px] flex flex-col gap-8">
-                      <textarea type="text" className='h-full p-4 rounded-lg' value="" placeholder="Message" name="email" id="message"> </textarea>
+                      <textarea type="text" className='h-full p-4 rounded-lg' placeholder="Message" name="email" id="message"> </textarea>
                    </p>
                    <p className="h-auto w-[140px] md:h-[50px] flex flex-col gap-8">
                      <input type="submit" value="Envoyer" className='px-4 py-2 border border-white rounded-lg' />
