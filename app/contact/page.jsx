@@ -38,13 +38,13 @@ const Contact = () => {
                    {errors.nom?.message && ( <p className="text-sm text-red-500">{errors.nom.message}</p> )}
                    <p className="h-auto md:h-[50px] flex flex-col gap-8">
                       <input type="email" className='h-full p-4 rounded-lg' placeholder="Email" name="email" id="email"
-                      {...register('email', {required: 'Email is required'})}  
+                      {...register('email', {required: 'L\'Email est requis'})}  
                       />
                    </p>
                    {errors.email?.message && ( <p className="text-sm text-red-500">{errors.email.message}</p> )}
                    <p className="h-[200px] flex flex-col gap-8">
                       <textarea placeholder="Message" className='h-full p-4 rounded-lg' name="message" id="message"
-                       {...register('message', {required: 'The message is required'})}/>
+                       {...register('message', {required: 'Le message est requis'})}/>
                    </p>
                    {errors.message?.message && ( <p className="text-sm text-red-500">{errors.message.message}</p> )}
                    <p className="h-auto w-[140px] md:h-[50px] flex flex-col gap-8">
