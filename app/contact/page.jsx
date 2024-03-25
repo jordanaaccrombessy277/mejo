@@ -43,8 +43,8 @@ const Contact = () => {
                    </p>
                    {errors.email?.message && ( <p className="text-sm text-red-500">{errors.email.message}</p> )}
                    <p className="h-[200px] flex flex-col gap-8">
-                      <textarea className='h-full p-4 rounded-lg' placeholder="Message" name="message" id="message"
-                       {...register('message', {required: 'The message is required'})}> </textarea> 
+                      <textarea placeholder="Message" className='h-full p-4 rounded-lg' name="message" id="message"
+                       {...register('message', {required: 'The message is required'})}/>
                    </p>
                    {errors.message?.message && ( <p className="text-sm text-red-500">{errors.message.message}</p> )}
                    <p className="h-auto w-[140px] md:h-[50px] flex flex-col gap-8">
