@@ -114,13 +114,21 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
               Comment ça marche ?
         </section>
 
-        <section className='md:h-[200px] flex flex-col justify-center items-center p-8 md:p-16'>       
-             <h2 className={`text-lg md:text-2xl font-bold py-4`}>
-                Restez informé du lancement de l&apos;application mobile Méjo
-             </h2>
-             <p className={`py-4 flex flex-row gap-4`}>
-                      <a href="/contact" className={`inline-block px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF] hover:border hover:border-[#0099FF]`}>Contactez-nous</a>
+        <section className="relative text-white bg-[#27272c] w-full h-[600px] flex flex-wrap items-center overflow-hidden">       
+        <Image width={300} height={300} alt="dummy" src="/accroche.png" className="object-cover md:object-center absolute w-full mix-blend-overlay min-h-full" />
+          <div className="absolute flex flex-col w-full md:w-1/2 mx-auto px-8 md:px-16 z-10">
+              
+                <h2 className={`text-lg md:text-2xl font-bold py-4`}>
+                  Restez informé du lancement de l&apos;application mobile Méjo
+                </h2>
+                <p className="py-4">
+                  Ne manquez pas cette occasion de prendre votre santé en main ! <br /> Soyez parmi les premiers à profiter de Méjo.
                 </p>
+                <p className={`py-4 flex flex-row gap-4`}>
+                        <a href="/contact" className={`inline-block px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF] hover:border hover:border-[#0099FF]`}>Contactez-nous</a>
+                </p>
+            
+          </div>
         </section>
         
       

@@ -26,7 +26,8 @@ export default function Header() {
   return (
     <header className="px-12 py-2 flex flex-wrap justify-between items-center w-[100%] mx-auto shadow-[2px_2px_5px_-1px_rgba(0,0,0,0.20),-2px_-2px_5px_-1px_rgba(0,0,0,0.05)]">
       
-      <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#181842]"><img
+      <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#181842]">
+            <img
               src="méjo-logo.png"
               className="block w-[50px] h-[50px]"
               alt="Méjo"
