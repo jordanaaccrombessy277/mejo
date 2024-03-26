@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className='text-white bg-[#0099FF] h-auto flex flex-wrap justify-between items-center p-8'>
+    <section className='h-auto flex flex-wrap justify-between items-center px-8 py-4'>
        <div className="">
           <img
               src="méjo-logo.png"
@@ -11,7 +11,7 @@ const Footer = () => {
             />
        </div>
        <div className="">
-          <p className="">Copyright  2024. Tous droits réservés.</p>
+          <p className="">Copyright Méjo 2024. Tous droits réservés.</p>
        </div>
     </section>
   )

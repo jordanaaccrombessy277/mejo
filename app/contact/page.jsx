@@ -31,8 +31,7 @@ const Contact = () => {
                       minLength:{
                           value:3,
                           message: 'Le nom doit avoir au moins 3 caractères !'
-                      }})}
-                      
+                      }})}                   
                       />
                    </p>
                    {errors.nom?.message && ( <p className="text-sm text-red-500">{errors.nom.message}</p> )}
@@ -53,7 +52,7 @@ const Contact = () => {
                 </form>
                
             </div>
-           <div  className={`md:pl-16 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
+           <div className={`md:pl-16 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
                   <Image className={`w-full h-full rounded-2xl object-cover`} src={'/contact.jpg'} width="300" height="300" alt="portfolio"  /> 
            </div>
         </section>
