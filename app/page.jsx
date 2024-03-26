@@ -110,8 +110,18 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
             </div>
         </section>
 
-        <section className='text-white bg-[#0099FF] md:h-[200px] flex flex-wrap justify-center items-center p-8 md:p-16'>
-              Comment ça marche ?
+        <section className='text-white bg-[#0099FF] h-auto md:h-[500px] flex flex-wrap justify-center items-center p-8 md:p-16'>
+            <div data-aos='fade-right' data-aos-duration="3000" className={`w-full md:w-2/3 h-auto md:h-full pb-4 md:pb-0`}>
+                <h2 className={`text-lg md:text-2xl font-bold py-4`}>
+                    Comment ça marche ?
+                </h2>
+                <p className={`py-4 md:text-lg`}>L&apos;application mobile, disponible prochainement sur Play Store et App Store, vous permet de simplifier la gestion de vos traitements. Après avoir créé votre profil et saisi les détails de vos médicaments, l&apos;application vous envoie des rappels personnalisés pour chaque prise, vous assurant ainsi de ne jamais oublier une dose. </p>
+                <p className={`py-4 md:text-lg`}>De plus, elle propose des conseils fiables et vérifiés pour vous aider à mieux comprendre vos traitements et à en optimiser l&apos;efficacité. Son interface intuitive et conviviale la rend accessible à tous, pour une utilisation simple et quotidienne. </p>
+                
+            </div>
+            <div data-aos='fade-right' data-aos-duration="3000" className={` w-full relative md:w-1/3 flex flex-wrap justify-center h-auto md:h-full`}>    
+                  <Image className={`w-1/2 rounded-2xl object-cover`} src={'/enregistrement-prise.png'} width="300" height="300" alt="portfolio"  /> 
+            </div>
         </section>
 
         <section className="relative text-white bg-[#27272c] w-full h-[600px] flex flex-wrap items-center overflow-hidden">       
