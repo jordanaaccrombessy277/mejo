@@ -85,7 +85,7 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                     Ne manquez plus une dose.
                 </h2>
-                <p className={`py-4 text-lg`}>Méjo vous facilite la gestion de vos médicaments grâce à sa fonction de rappel intuitive et personnalisable. Définissez les heures exactes de prise et la fréquence des rappels (quotidiens, hebdomadaires, etc.). Choisissez le type de notification qui vous convient (son, vibration, message personnalisé). Restez flexible en ajustant facilement les horaires et le dosage en fonction de vos besoins changeants. L&apos;application vous permet de gérer aussi bien les médicaments ponctuels que les traitements réguliers.</p>
+                <p className={`py-4 md:text-lg`}>Méjo vous facilite la gestion de vos médicaments grâce à sa fonction de rappel intuitive et personnalisable. Définissez les heures exactes de prise et la fréquence des rappels (quotidiens, hebdomadaires, etc.). Choisissez le type de notification qui vous convient (son, vibration, message personnalisé). Restez flexible en ajustant facilement les horaires et le dosage en fonction de vos besoins changeants. L&apos;application vous permet de gérer aussi bien les médicaments ponctuels que les traitements réguliers.</p>
                 <p className={`py-4 flex flex-row gap-4`}>
                       <a href="/#ensavoirplus" className={`inline-block px-4 text-lg text-[#0099FF] font-semibold rounded-lg py-4 bg-white hover:bg-[#0099FF] hover:border hover:border-white hover:text-white`}>En savoir plus</a>
                 </p>
@@ -103,7 +103,7 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                    Gardez le contrôle de votre traitement
                 </h2>
-                <p className={`py-4 text-lg`}>Méjo vous offre un suivi complet de votre traitement grâce à son historique de prise de médicaments. Retrouvez en un clin d&apos;œil les dates, heures, doses et médicaments que vous avez pris, ainsi que les jours où une dose a été oubliée. Analysez vos schémas de prise et identifiez les points d&apos;amélioration. Cette information précieuse vous permet de discuter de votre observance thérapeutique avec votre médecin et de prendre des décisions éclairées pour une meilleure gestion de votre santé.</p>
+                <p className={`py-4 md:text-lg`}>Méjo vous offre un suivi complet de votre traitement grâce à son historique de prise de médicaments. Retrouvez en un clin d&apos;œil les dates, heures, doses et médicaments que vous avez pris, ainsi que les jours où une dose a été oubliée. Analysez vos schémas de prise et identifiez les points d&apos;amélioration. Cette information précieuse vous permet de discuter de votre observance thérapeutique avec votre médecin et de prendre des décisions éclairées pour une meilleure gestion de votre santé.</p>
                 <p className={`py-4 flex flex-row gap-4`}>
                       <a href="/#ensavoirplus" className={`inline-block px-4 text-lg text-[#0099FF] font-semibold rounded-lg py-4 border border-[#0099FF] bg-white hover:bg-[#0099FF] hover:text-white`}>En savoir plus</a>
                 </p>
@@ -130,7 +130,7 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
       <h2 className={`text-lg md:text-2xl font-bold py-4`}>
         Téléchargez l&apos;application dès aujourd&apos;hui et prenez soin de votre santé !
       </h2>
-      <p className="py-4">
+      <p className="py-4 md:text-lg">
         Ne manquez pas cette occasion de prendre votre santé en main ! <br /> Soyez parmi les premiers à profiter de Méjo.
       </p>
       <p className={`py-4 flex flex-row gap-4`}>
