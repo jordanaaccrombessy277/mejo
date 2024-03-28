@@ -49,7 +49,7 @@ export default function Header() {
             <Link href="/#comment-ça-marche">Comment ça marche</Link>
           </li>
           <li className="inline-block text-center text-white p-4 rounded-lg bg-[#0099FF] font-semibold hover:bg-white hover:text-[#0099FF] hover:duration-500 hover:border hover:border-[#0099FF]">
-            <Link href="/contact">Contactez-nous</Link>
+            <Link href="/">Télécharger Méjo</Link>
           </li>     
         </ul>
       </div>

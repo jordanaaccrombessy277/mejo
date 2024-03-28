@@ -8,8 +8,7 @@ import { FaPhone, FaFacebook,FaLinkedin,FaWhatsapp } from "react-icons/fa6";
 
 
 export default function Home() {
-
-
+  
   useEffect(() => {
     AOS.init();
   }, []);
@@ -18,16 +17,17 @@ export default function Home() {
     <main className="">
 
         <section className={`h-auto md:h-[400px] flex flex-wrap items-center p-8 md:p-16`}>
-            <div data-aos='fade-up' data-aos-duration="3000" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0 md:pr-4`}>
+            <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0 md:pr-4`}>
                 <h1 className={`text-2xl md:text-4xl font-bold py-4`}>
                     Ne manquez plus vos prises de médicaments !
                 </h1>
                 <p className={`py-4 text-lg`}>Méjo, l&apos;application mobile qui vous rappelle de prendre vos médicaments à temps, où que vous soyez.</p>
-                <p className={`py-4 flex flex-row gap-4`}>
-                      <a href="/contact" className={`inline-block px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF] hover:border hover:border-[#0099FF]`}>Contactez-nous</a>
+                <p className={`py-4 flex flex-col md:flex-row gap-4`}>
+                      <a href="/" className={`inline-block text-center px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF] hover:border hover:border-[#0099FF]`}>Télécharger Méjo</a>
+                      <a href="/contact" className={`inline-block text-center px-4 text-lg text-[#0099FF] font-semibold rounded-lg py-4 border border-[#0099FF] hover:bg-[#0099FF] hover:text-white`}>Contactez-nous</a>
                 </p>
             </div>
-            <div data-aos='fade-up' data-aos-duration="3000" className={`w-full relative md:w-1/2 rounded-2xl overflow-hidden flex flex-wrap justify-center h-auto md:h-full`}>    
+            <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`w-full relative md:w-1/2 rounded-2xl overflow-hidden flex flex-wrap justify-center h-auto md:h-full`}>    
                     <Image className={`w-full h-full object-cover`} src={'/mejouse.png'} width="300" height="300" alt="portfolio"  /> 
             </div>
         </section>
@@ -60,16 +60,16 @@ export default function Home() {
         </section>
 
         <section id='méjo' className={`h-auto text-white mt-[-60px] md:mt-[-120px] bg-[#0099FF] md:h-[400px] flex flex-wrap items-center px-8 py-16 md:p-16 lg:p-32`}>
-             <h2 data-aos='fade-down' data-aos-duration="3000" className='py-4 text-center text-lg md:text-2xl font-bold'>Qu&apos;est-ce que Méjo ?</h2>
-             <p data-aos='fade-down' data-aos-duration="3000" className="py-4 md:text-lg">Mejo est une application mobile construite pour aider les patients à gérer  efficacement leur prise de médicaments.Elle  garantit une prise de médicaments régulière, en maintenant la conformité au traitement prescrit par les médecins. Méjo contribue à l’amélioration des  résultats de santé et à la réduction des risques de complications ou de rechutes.
+             <h2 data-aos='fade-down' data-aos-once="true" data-aos-duration="3000" className='py-4 text-center text-lg md:text-2xl font-bold'>Qu&apos;est-ce que Méjo ?</h2>
+             <p data-aos='fade-down' data-aos-once="true" data-aos-duration="3000" className="py-4 md:text-lg">Mejo est une application mobile construite pour aider les patients à gérer  efficacement leur prise de médicaments.Elle  garantit une prise de médicaments régulière, en maintenant la conformité au traitement prescrit par les médecins. Méjo contribue à l’amélioration des  résultats de santé et à la réduction des risques de complications ou de rechutes.
 Méjo offre des rappels personnalisés pour chaque médicament.</p>
         </section>
 
         <section id='mission' className={`h-auto bg-white flex flex-wrap items-center p-8 md:p-16`}>
-            <div data-aos='fade-right' data-aos-duration="3000" className={`pb-4 md:pb-0 w-full relative md:w-1/3 flex flex-wrap justify-center h-auto md:h-full`}>    
-                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/missionj.png'} width="300" height="300" alt="portfolio"  /> 
+            <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={`pb-4 md:pb-0 w-full relative md:w-1/3 flex flex-wrap justify-center h-auto md:h-full`}>    
+                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/Mejo-enfants-joie.png'} width="300" height="300" alt="portfolio"  /> 
             </div>
-            <div data-aos='fade-right' data-aos-duration="3000" className={`w-full md:w-2/3 h-auto md:pl-8`}>
+            <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-2/3 h-auto md:pl-8`}>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                     Notre mission
                 </h2>
@@ -80,8 +80,8 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
             </div>
         </section>
 
-        <section className='flex bg-[#0099FF] text-white flex-wrap items-center p-8 md:p-16 h-auto'>
-           <div data-aos='fade-up' data-aos-duration="3000" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0`}>
+        <section className='flex bg-[#0099FF] text-white flex-wrap items-center p-8 md:p-16 h-auto md:h-[550px]'>
+           <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0`}>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                     Ne manquez plus une dose.
                 </h2>
@@ -90,16 +90,16 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
                       <a href="/#ensavoirplus" className={`inline-block px-4 text-lg text-[#0099FF] font-semibold rounded-lg py-4 bg-white hover:bg-[#0099FF] hover:border hover:border-white hover:text-white`}>En savoir plus</a>
                 </p>
             </div>
-           <div data-aos='fade-up' data-aos-duration="3000" className={`md:pl-8 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
-                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/rappel.png'} width="300" height="300" alt="portfolio"  /> 
+           <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`md:pl-8 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
+                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/Mejo-push.png'} width="300" height="300" alt="portfolio"  /> 
            </div>
         </section>
 
-        <section className='flex flex-wrap items-center p-8 md:p-16 h-auto'>
-           <div data-aos='fade-up' data-aos-duration="3000" className={`md:pl-8 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
-                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/control.png'} width="300" height="300" alt="portfolio"  /> 
+        <section className='flex flex-wrap items-center p-8 md:p-16 h-auto md:h-[550px]'>
+           <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`md:pl-8 w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
+                  <Image className={`w-full h-full rounded-2xl object-cover`} src={'/Mejo-calender.png'} width="300" height="300" alt="portfolio"  /> 
            </div>
-           <div data-aos='fade-up' data-aos-duration="3000" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0`}>
+           <div data-aos='fade-up' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-1/2 h-auto pb-4 md:pb-0`}>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                    Gardez le contrôle de votre traitement
                 </h2>
@@ -110,36 +110,35 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
             </div>
         </section>
 
-        <section className='text-white bg-[#0099FF] h-auto md:h-[500px] flex flex-wrap justify-center items-center p-8 md:p-16'>
-            <div data-aos='fade-right' data-aos-duration="3000" className={`w-full md:w-2/3 h-auto md:h-full pb-4 md:pb-0`}>
+        <section className='text-white bg-[#0099FF] h-auto flex flex-wrap justify-center items-center p-8 md:p-16'>
+            <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-1/2 h-auto md:h-full pb-4 md:pb-0`}>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                     Comment ça marche ?
                 </h2>
-                <p className={`py-4 md:text-lg`}>L&apos;application mobile, disponible prochainement sur Play Store et App Store, vous permet de simplifier la gestion de vos traitements. Après avoir créé votre profil et saisi les détails de vos médicaments, l&apos;application vous envoie des rappels personnalisés pour chaque prise, vous assurant ainsi de ne jamais oublier une dose. </p>
-                <p className={`py-4 md:text-lg`}>De plus, elle propose des conseils fiables et vérifiés pour vous aider à mieux comprendre vos traitements et à en optimiser l&apos;efficacité. Son interface intuitive et conviviale la rend accessible à tous, pour une utilisation simple et quotidienne. </p>
+                <p className={`py-4 md:text-lg`}>Pour bénéficier des fonctionnalités de Méjo, vous devez d&apos;abord le télécharger depuis le Play Store ou l&apos;App Store. </p>
+                <p className={`py-4 md:text-lg`}>Ensuite, vous devrez vous inscrire en créant un compte dans l&apos;application. Une fois votre profil établi et les informations sur vos médicaments saisies, Méjo vous permet de configurer des rappels personnalisés pour chaque prise, garantissant ainsi que vous n&apos;oublierez jamais de prendre votre dose.</p>
                 
             </div>
-            <div data-aos='fade-right' data-aos-duration="3000" className={` w-full relative md:w-1/3 flex flex-wrap justify-center h-auto md:h-full`}>    
-                  <Image className={`w-1/2 rounded-2xl object-cover`} src={'/enregistrement-prise.png'} width="300" height="300" alt="portfolio"  /> 
+            <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={` w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
+                  <Image className={`w-full rounded-2xl object-cover`} src={'/3appmejo.png'} width="300" height="300" alt="portfolio"  /> 
             </div>
         </section>
 
-        <section className="relative text-white bg-[#27272c] w-full h-[600px] flex flex-wrap items-center overflow-hidden">       
-        <Image width={300} height={300} alt="dummy" src="/accroche.png" className="object-cover md:object-center absolute w-full mix-blend-overlay min-h-full" />
-          <div className="absolute flex flex-col w-full md:w-1/2 mx-auto px-8 md:px-16 z-10">
-              
-                <h2 className={`text-lg md:text-2xl font-bold py-4`}>
-                  Restez informé du lancement de l&apos;application mobile Méjo
-                </h2>
-                <p className="py-4">
-                  Ne manquez pas cette occasion de prendre votre santé en main ! <br /> Soyez parmi les premiers à profiter de Méjo.
-                </p>
-                <p className={`py-4 flex flex-row gap-4`}>
-                        <a href="/contact" className={`inline-block px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF] hover:border hover:border-[#0099FF]`}>Contactez-nous</a>
-                </p>
-            
-          </div>
-        </section>
+        <section className="relative text-white bg-no-repeat bg-cover md:bg-auto bg-[url('/bg-accroche.png')] w-full h-[600px] flex flex-wrap items-center overflow-hidden">       
+<div className="absolute flex flex-col w-full md:w-1/2 mx-auto pl-8 pr-8 md:px-16 z-10">
+    
+      <h2 className={`text-lg md:text-2xl font-bold py-4`}>
+        Téléchargez l&apos;application dès aujourd&apos;hui et prenez soin de votre santé !
+      </h2>
+      <p className="py-4">
+        Ne manquez pas cette occasion de prendre votre santé en main ! <br /> Soyez parmi les premiers à profiter de Méjo.
+      </p>
+      <p className={`py-4 flex flex-row gap-4`}>
+              <a href="/" className={`inline-block px-4 text-lg text-white font-semibold rounded-lg py-4 bg-[#0099FF] hover:bg-white hover:text-[#0099FF]`}>Télécharger Méjo</a>
+      </p>
+  
+</div>
+</section>
         
       
     </main>
