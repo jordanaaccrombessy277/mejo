@@ -125,7 +125,7 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
         </section>
 
         <section className="relative text-white bg-no-repeat bg-cover md:bg-auto bg-[url('/bg-accroche.png')] w-full h-[600px] flex flex-wrap items-center overflow-hidden">       
-<div className="absolute flex flex-col w-full md:w-1/2 mx-auto pl-8 pr-8 md:px-16 z-10">
+<div className="absolute bg-[#00000020] md:bg-transparent flex flex-col w-full md:w-1/2 mx-auto pl-8 pr-8 md:px-16 z-10">
     
       <h2 className={`text-lg md:text-2xl font-bold py-4`}>
         Téléchargez l&apos;application dès aujourd&apos;hui et prenez soin de votre santé !
