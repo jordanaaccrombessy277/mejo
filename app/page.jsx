@@ -110,14 +110,13 @@ Méjo offre des rappels personnalisés pour chaque médicament.</p>
             </div>
         </section>
 
-        <section className='text-white bg-[#0099FF] h-auto flex flex-wrap justify-center items-center p-8 md:p-16'>
+        <section id="comment-ça-marche" className='text-white bg-[#0099FF] h-auto flex flex-wrap justify-center items-center p-8 md:p-16'>
             <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={`w-full md:w-1/2 h-auto md:h-full pb-4 md:pb-0`}>
                 <h2 className={`text-lg md:text-2xl font-bold py-4`}>
                     Comment ça marche ?
                 </h2>
                 <p className={`py-4 md:text-lg`}>Pour bénéficier des fonctionnalités de Méjo, vous devez d&apos;abord le télécharger depuis le Play Store ou l&apos;App Store. </p>
                 <p className={`py-4 md:text-lg`}>Ensuite, vous devrez vous inscrire en créant un compte dans l&apos;application. Une fois votre profil établi et les informations sur vos médicaments saisies, Méjo vous permet de configurer des rappels personnalisés pour chaque prise, garantissant ainsi que vous n&apos;oublierez jamais de prendre votre dose.</p>
-                
             </div>
             <div data-aos='fade-right' data-aos-duration="3000" data-aos-once="true" className={` w-full relative md:w-1/2 flex flex-wrap justify-center h-auto md:h-full`}>    
                   <Image className={`w-full rounded-2xl object-cover`} src={'/3appmejo.png'} width="300" height="300" alt="portfolio"  /> 
